@@ -1,0 +1,168 @@
+*{
+    background: #ffffff;
+    box-sizing: border-box
+    
+}
+
+div{
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+}
+
+body{
+    letter-spacing: .5px;
+    color: #202020;
+}
+
+.JudulOfficial {
+    font: 900 30px/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+.Judul1 {
+    font-size: 26px;
+    display: inline-block;
+    margin: 0 0 15px 60px;
+    position: relative;
+    font: 800 26px/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-align: left;
+}
+
+.Judul {
+    font-size: 26px;
+    display: inline-block;
+    margin: 0 0 15px 50px;
+    position: relative;
+    font: 1000 26px/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-align: left;
+    padding: 1%;
+    font-weight: 300;
+
+}
+
+.video {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 5px 0;
+    display: block;
+
+}
+
+.text {
+    font: 400 16px/1.3 Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;
+    margin: 0px;
+    letter-spacing: .5px;
+    background: black;
+    color: white;
+    text-align: justify ;
+    padding-left:  2%;
+}
+
+.foto {
+    width: 20%;
+    height: 20%;
+    float: right;
+    margin: 6%;
+    left: 10px;
+}
+
+.nama{
+    color: #151515;
+    font: 400 14px/1.2 Roboto Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    padding: 1px;
+    margin: 1%;
+
+}
+
+.cast_d{
+    color: #767676;
+    font: 400 12px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+   margin: 1%; 
+}
+
+.cast_cast{
+    color: #767676;
+    font: 400 12px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+   margin: 1%; 
+
+}
+
+.cast_tanggal{
+    color: #767676;
+    font: 400 12px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+   margin: 1%; 
+}
+.flexbox-item-1 {
+    width: 30%;
+    height: 50%;
+    float: left;
+    margin: 25px;
+    min-height: 200px;
+}
+
+.flexbox-item-2 {
+        width: 30%;
+        height: 35%;
+        float: right;
+        margin: 25px;
+        min-height: 100px;
+}
+
+.flexbox-item-3 {
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin: 20px;
+    min-height: 300px;
+}
+.container {
+    font-size: 26px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 0 15px 70px;
+    padding: 1%;
+    position: relative;
+    font: 800 26px/1 RobotoCondensed,Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-align: left;
+    justify-content: space-around;
+}
+.containers {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     grid-gap: 100px;
+}
+
+.image-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.image {
+}
+
+.image-item .image {
+    width: 100%;
+    height 100%;
+    overflow: hidden;
+}
+
+.image-item .image img {
+    width: 100%;
+    height: 100%;
+}
+
+texts {
+text-align: center;
+}
